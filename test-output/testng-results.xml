@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-21T12:21:15 IST" name="Command line suite" finished-at="2024-08-21T12:21:28 IST" duration-ms="12409">
+    <groups>
+    </groups>
+    <test started-at="2024-08-21T12:21:15 IST" name="Command line test" finished-at="2024-08-21T12:21:28 IST" duration-ms="12409">
+      <class name="com.ecommerce.tests.RegistrationTest">
+        <test-method signature="tc_01_verifyregistrationTest()[pri:0, instance:com.ecommerce.tests.RegistrationTest@435e60ff]" started-at="2024-08-21T12:21:15 IST" name="tc_01_verifyregistrationTest" finished-at="2024-08-21T12:21:17 IST" duration-ms="1397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_verifyregistrationTest -->
+        <test-method signature="tc_02_VerifyUserLogin()[pri:0, instance:com.ecommerce.tests.RegistrationTest@435e60ff]" started-at="2024-08-21T12:21:17 IST" name="tc_02_VerifyUserLogin" finished-at="2024-08-21T12:21:17 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_02_VerifyUserLogin -->
+      </class> <!-- com.ecommerce.tests.RegistrationTest -->
+      <class name="com.ecommerce.tests.ProfileTests">
+        <test-method signature="getProfileData()[pri:0, instance:com.ecommerce.tests.ProfileTests@10afe71a]" started-at="2024-08-21T12:21:28 IST" name="getProfileData" finished-at="2024-08-21T12:21:28 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProfileData -->
+        <test-method signature="updateProfileData()[pri:0, instance:com.ecommerce.tests.ProfileTests@10afe71a]" started-at="2024-08-21T12:21:28 IST" name="updateProfileData" finished-at="2024-08-21T12:21:28 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProfileData -->
+      </class> <!-- com.ecommerce.tests.ProfileTests -->
+      <class name="com.ecommerce.tests.ProductTests">
+        <test-method signature="createProduct()[pri:0, instance:com.ecommerce.tests.ProductTests@2e6f610d]" started-at="2024-08-21T12:21:17 IST" name="createProduct" finished-at="2024-08-21T12:21:17 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method signature="deleteProduct()[pri:0, instance:com.ecommerce.tests.ProductTests@2e6f610d]" started-at="2024-08-21T12:21:17 IST" name="deleteProduct" finished-at="2024-08-21T12:21:17 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+        <test-method signature="getAllProduct()[pri:0, instance:com.ecommerce.tests.ProductTests@2e6f610d]" started-at="2024-08-21T12:21:17 IST" name="getAllProduct" finished-at="2024-08-21T12:21:17 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllProduct -->
+      </class> <!-- com.ecommerce.tests.ProductTests -->
+      <class name="com.ecommerce.tests.CategoryTests">
+        <test-method signature="createCategory()[pri:0, instance:com.ecommerce.tests.CategoryTests@1e86a5a7]" started-at="2024-08-21T12:21:17 IST" name="createCategory" finished-at="2024-08-21T12:21:28 IST" duration-ms="10086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCategory -->
+      </class> <!-- com.ecommerce.tests.CategoryTests -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

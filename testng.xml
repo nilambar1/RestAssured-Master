@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true"
+          name="/Users/nilambar/Documents/RestAssured/RestAssured-Master/src/test/java/com/ecommerce/tests/RegistrationTest.java">
+        <classes>
+            <class name="com.ecommerce.tests.RegistrationTest">
+                <methods>
+                    <include name="tc_01_verifyregistrationTest"/>
+                    <include name="tc_02_VerifyUserLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="/Users/nilambar/Documents/RestAssured/RestAssured-Master/src/test/java/com/ecommerce/tests/ProfileTests.java">
+        <classes>
+            <class name="com.ecommerce.tests.ProfileTests">
+                <methods>
+                    <include name="getProfileData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
